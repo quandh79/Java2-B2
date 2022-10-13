@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="thuvien.book.editController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtMaSach" layoutX="151.0" layoutY="84.0" prefHeight="31.0" prefWidth="254.0" promptText="Ma sach" />
+      <TextField fx:id="txtTenSach" layoutX="151.0" layoutY="138.0" prefHeight="31.0" prefWidth="254.0" promptText="Ten Sach" />
+      <TextField fx:id="txtTheLoai" layoutX="151.0" layoutY="185.0" prefHeight="31.0" prefWidth="254.0" promptText="The loai" />
+      <Button onAction="#submit" layoutX="265.0" layoutY="330.0" mnemonicParsing="false" text="Add" />
+      <Button onAction="#goToList" layoutX="29.0" layoutY="21.0" mnemonicParsing="false" text="Back"/>
+      <TextField fx:id="txtSoLuong" layoutX="151.0" layoutY="238.0" prefHeight="31.0" prefWidth="254.0" promptText="So luong" />
+   </children>
+</Pane>

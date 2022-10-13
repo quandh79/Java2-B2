@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thuvien.muonsach.ListController">
+   <children>
+      <Button layoutX="128.0" layoutY="339.0" mnemonicParsing="false" onAction="#goToForm" text="Add" />
+      <Button onAction="#goToEdit" layoutX="344.0" layoutY="339.0" mnemonicParsing="false" text="Edit" />
+      <Button layoutX="35.0" layoutY="22.0" mnemonicParsing="false" onAction="#goToMenu" text="Back" />
+      <ListView fx:id="lv" layoutX="65.0" layoutY="84.0" prefHeight="200.0" prefWidth="444.0" />
+   </children>
+</Pane>
